@@ -476,7 +476,7 @@ SiS Framework is licensed under the GPL License. See [License](https://www.gnu.o
 
 - **GitHub Issues** — Report bugs and request features
 - **Discussions** — Share ideas and ask questions
-- **Documentation** — Read the full docs at [docs.openesis.dev](https://docs.openesis.dev)
+
 - **Blacklink Website** — [blacklink.net](https://blacklink.net)
 
 ## Built With
