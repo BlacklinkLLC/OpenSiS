@@ -1,0 +1,7 @@
+{
+    "name": "opensis",
+    "version": "1.0.0",
+    "author": "Blacklink Education",
+    "main": "OpenSiS.js",
+    "license": "GPL-3.0"
+}
