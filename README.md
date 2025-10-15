@@ -26,7 +26,7 @@ OpenSiS is a lightweight, plugin-based framework designed to help developers, sc
 ### Via NPM (Coming Soon)
 
 ```bash
-npm install openesis
+npm install opensis
 ```
 
 ### Manual Setup
@@ -36,7 +36,7 @@ npm install openesis
 3. Initialize and register modules
 
 ```javascript
-import { OpenSiS } from './openesis';
+import { OpenSiS } from './opensis';
 
 const sis = new OpenSiS();
 ```
@@ -46,7 +46,7 @@ const sis = new OpenSiS();
 ### 1. Initialize the Framework
 
 ```javascript
-import OpenSiS from './openesis';
+import OpenSiS from './opensis';
 
 const sis = new OpenSiS();
 ```
@@ -239,7 +239,7 @@ Each module is an object with the following properties:
 
 ```javascript
 import React, { useState, useEffect } from 'react';
-import OpenSiS from 'openesis';
+import OpenSiS from 'opensis';
 
 const sis = new SiSFramework();
 
@@ -513,7 +513,7 @@ OpenSiS is built and maintained by [Blacklink Education](https://blacklink.net) 
 
 **Made with ❤️ by Blacklink Education**
 
-**GitHub:** [github.com/BlacklinkLLC/openesis](https://github.com/BlacklinkLLC/OpenSiS/)
+**GitHub:** [github.com/BlacklinkLLC/opensis](https://github.com/BlacklinkLLC/OpenSiS/)
 **Website:** [blacklink.net](https://blacklink.net)  
-**Documentation:** Coming soooon 
+**Documentation:** [view](https://github.com/BlacklinkLLC/OpenSiS/wiki)
 **Email:** [contact@blacklink.net](mailto:contact@blacklink.net)
