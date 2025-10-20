@@ -1,7 +1,54 @@
 {
     "name": "opensis",
     "version": "1.0.0",
+    "description": "An open-source Student Information System framework built on React",
     "author": "Blacklink Education",
-    "main": "OpenSiS.js",
-    "license": "GPL-3.0"
+    "main": "./src/framework/OpenSiS.js",
+    "license": "GPL-3.0",
+    "type": "module",
+    "keywords": [
+        "student-information-system",
+        "education",
+        "react",
+        "framework",
+        "sis",
+        "plugin-system",
+        "modular"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlacklinkLLC/OpenSiS.git"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+        "lint:fix": "eslint . --ext js,jsx --fix",
+        "format": "prettier --write \"src/**/*.{js,jsx,json,css,md}\"",
+        "format:check": "prettier --check \"src/**/*.{js,jsx,json,css,md}\""
+    },
+    "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.12",
+        "@types/react-dom": "^18.3.1",
+        "@vitejs/plugin-react": "^4.3.3",
+        "eslint": "^8.57.1",
+        "eslint-plugin-react": "^7.37.2",
+        "eslint-plugin-react-hooks": "^4.6.2",
+        "eslint-plugin-react-refresh": "^0.4.14",
+        "prettier": "^3.3.3",
+        "vite": "^5.4.10"
+    },
+    "peerDependencies": {
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
+    "engines": {
+        "node": ">=18.0.0",
+        "npm": ">=9.0.0"
+    }
 }
